@@ -72,3 +72,7 @@ Assumes that the frame is only split into two."
         (linum-mode 1)
         (goto-line (read-number "Goto line: ")))
     (linum-mode -1)))
+
+(defun fb-irc ()
+  (interactive)
+  (load "~/.fb-irc.gpg"))
